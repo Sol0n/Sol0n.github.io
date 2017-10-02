@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Тестовое задание</title>
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+	
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="libs/modernizr/modernizr.js"></script>
+
+</head>
+
+<body>
+	
+	<div class="hidden"></div>
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+        <ul class="menu">
+			            <li><a href="#task1">Задание 1</a></li>
+			            <li><a href="#task2">Задание 2</a></li>
+			            <li><a href="#task3">Задание 3</a></li>
+		</ul>
+      <div class="task1" id="task1">
+      	<h1>Трансфертное ценообразование (ТЦО) : лимиты сделок, методы определения рыночных цен и штрафы.</h1>
+
+      	<p>В Российской Федерации с 1 января 2012 вступил в силу Федеральный закон от 18.07.2011 N 227-ФЗ (Закон 227-ФЗ). Закон 227-ФЗ, который дополнил Налоговый кодекс РФ разделом V.1 «Взаимозависимые лица. Общие положения о ценах и налогообложении. Налоговый контроль в связи с совершением сделок между взаимозависимыми лицами. Соглашение о ценообразовании». Его положения направлены, в том числе, на предотвращение вывода налоговой прибыли за пределы РФ, исключение возможностей манипулирования ценами в сделках между взаимозависимыми налогоплательщиками, налогоплательщиками, применяющими различные режимы налогообложения внутри страны. Правила пришли на смену ст. 40 «Принципы определения цены товаров, работ или услуг для целей налогообложения» и ст. 20 «Взаимозависимые лица» НК РФ.</p>
+
+      	<p>Цены проверяют не по всем сделкам подряд, а только по контролируемым.
+      	Для целей налогообложения контролируемыми сделками признаются:</p>
+
+      	<ul class="list">
+      		<li>1) сделки между взаимозависимыми лицами (с учетом особенностей, которые закреплены в ст. 105.14 НК РФ);</li>
+
+			<li>2) сделки (совокупность сделок), приобретающие статус контролируемых сделок в результате приравнивания их к сделкам взаимозависимых лиц (п. 1 ст. 105.14 НК РФ);</li>
+
+			<li>3) сделки, признанные контролируемыми в судебном порядке (п. 10 ст. 105.14 НК РФ).</li>
+		</ul>
+
+      	<p>Мы объединили контролируемые сделки для целей налогообложения в таблице:</p>
+     <table class="table_style">
+     	<tr>
+     		<td bgcolor="#DDF0FE" colspan="2">КОНТРОЛИРУЕМЫЕ СДЕЛКИ</td>
+     		<td bgcolor="#DDF0FE">ЛИМИТ ГОДОВОГО ОБОРОТА</td>
+     	</tr>
+     	<tr>
+     		<td rowspan="3">Внешне экономические сделки</td>
+     		<td>Между взаимозависимыми лицами</td>
+     		<td>Лимит не установлен</td>
+     	</tr>
+     	<tr>
+     		<td>С товаром биржевой торговли</td>
+     		<td>60 млн. руб.</td>
+     	</tr>
+     	<tr>
+     		<td>С резидентами оффшоров согласно перечню Министерства Финансов РФ</td>
+     		<td>60 млн. руб.</td>
+     	</tr>
+     	<tr>
+     		<td rowspan="6">Внутрироссийские сделки</td>
+     		<td>Между взаимозависимыми лицами</td>
+     		<td>1 млрд. руб. (с 2016 г.)</td>
+     	</tr>
+     	<tr>
+     		<td>Между взаимозависимыми лицами, если одна из сторон:<br>
+     		— освобождена от налога на прибыль или применяет ставку 0%<br>
+     		— резидент ОЭЗ, предусматривающей льготы по налогу на прибыль<br>
+     		— плательщик НДПИ, исчисляемого по ставке, установленной в процентах<br>
+     		— применяет спец. налоговый режим (ЕНВД, ЕСХН)
+     		</td>
+     		<td class="td_style"><br>
+     		60 млн. руб.<br><br>
+     	    60 млн. руб.<br><br>
+     		59 млн. руб.<br><br>
+     		100 млн. руб.
+     		</td>
+     	</tr>
+     </table>
+
+			<p>Вне зависимости от того, удовлетворяют ли сделки условиям, предусмотренным п. п. 1 — 3 ст. 105.14 НК РФ, <b>не признаются контролируемыми сделки:</b></p>
+
+			<ul class="list">
+				<li> — сторонами которых являются участники одной и той же консолидированной группы налогоплательщиков (за исключением сделок, предметом которых является добытое полезное ископаемое, признаваемое объектом обложения НДПИ, при добыче которого налогообложение производится по ставке, установленной в процентах);</li>
+				<li> — сторонами которых являются лица, удовлетворяющие одновременно следующим требованиям:</li>
+				<li>
+					<ul>
+						<li>зарегистрированы в одном субъекте РФ, не имеют обособленных подразделений на территориях других субъектов РФ, а также за пределами РФ, не уплачивают налог на прибыль в бюджеты других субъектов РФ;</li>
+						<li>не имеют убытков (включая убытки прошлых периодов, переносимые на будущие периоды), принимаемых при исчислении налога на прибыль;</li>
+						<li>нет обстоятельств для признания их сделок контролируемыми в соответствии с пп. 2 — 7 п. 2 ст. 105.14 НК РФ;</li>
+					</ul>
+				</li>
+				<li> — и некоторые другие.</li>
+			</ul>
+      </div>
+      <div class="task2" id="task2">
+      	<div class="men">
+      		<img src="img/men/Леонид_Михельсон.png" width="167" height="167">
+      		<p class="name">Леонид Михельсон</p>
+      		<p class="info"><b>$18400 млн</b> (1-ое место)</p>
+      	</div>
+      	<div class="men">
+      		<img src="img/men/Михаил-Фридман.png" width="167" height="167">
+      		<p class="name">Михаил Фридман</p>
+      		<p class="info"><b>$13300 млн</b> (2-ое место)</p>
+      	</div>
+      	<div class="men">
+      		<img src="img/men/Алишер-Усманов.png" width="167" height="167">
+      		<p class="name">Алишер Усманов</p>
+      		<p class="info"><b>$12500 млн</b> (3-е место)</p>
+      	</div>
+      	<div class="men">
+      		<img src="img/men/Владимир-Потанин.png" width="167" height="167">
+      		<p class="name">Владимир Потанин</p>
+      		<p class="info"><b>$12100 млн</b> (4-ое место)</p>
+      	</div>
+      	<div class="men">
+      		<img src="img/men/Геннадий-Тимченко.png" width="167" height="167">
+      		<p class="name">Геннадий Тимченко</p>
+      		<p class="info"><b>$11400 млн</b> (5-ое место)</p>
+      	</div>
+      </div>
+      <div class="task3" id="task3">
+      	<div class="logo_style magnit"><img src="img/logo/magnit.png" width="250" height="65"></div>
+        <div class="logo_style beeline"><img src="img/logo/beeline.png" width="250" height="79"></div>
+        <div class="logo_style tatneft"><img src="img/logo/tatneft.png" width="250" height="75"></div>
+        <div class="logo_style lukoil"><img src="img/logo/lukoil.png" width="250" height="65"></div>
+        <div class="logo_style x5"><img src="img/logo/X5_retail_group.png" width="250" height="65"></div>
+      </div>
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+	
+	<script src="js/common.js"></script>
+	
+</body>
+</html>
